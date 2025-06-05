@@ -146,10 +146,10 @@ const SMO_BAR_GREEN = [180, 100, 50];
 const CONFETTI_SPAWN_COUNT = 128;
 const MAX_STYLES = 10; // Maximum styles to loop through
 
-const STORAGE_BOOKMARK_KEY = "dramaso-idList";
-const STORAGE_BOOKMARK_KEY_OLD = "dramaso-idList";
-const STORAGE_BOOKMARK_CACHE_KEY = "dramaso-idList-cache";
-const SETTINGS_KEY = "dramaso-settings";
+const STORAGE_BOOKMARK_KEY = "XenoSO-idList";
+const STORAGE_BOOKMARK_KEY_OLD = "XenoSO-idList";
+const STORAGE_BOOKMARK_CACHE_KEY = "XenoSO-idList-cache";
+const SETTINGS_KEY = "XenoSO-settings";
 //#endregion
 
 //#region Market Watch Constants
