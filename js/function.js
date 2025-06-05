@@ -572,7 +572,7 @@ eggUtils = function() {
         
         GUI_SIM_THUMBNAIL.classList.add("reagan-image");
 
-        GUI_SIM_BIO.classList.add("inset-gold");
+        GUI_SIM_BIO.classList.add("inset-ff0000");
         GUI_SIM_DESCRIPTION.classList.add("inset-gold");
 
         GUI_BOOKMARK_LABEL.classList.add("bookmark-gold");
