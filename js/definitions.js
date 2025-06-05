@@ -1,7 +1,7 @@
 const VERSION_STR = "v0.2.4h";
 
 //#region API Links
-const BASE_URL = "https://backup.dramaso.org";
+const BASE_URL = "https://api.xenoso.space/";
 const SIM_ONLINE_URL = `${BASE_URL}/userapi/avatars/online`;
 const LOTS_ONLINE_URL = `${BASE_URL}/userapi/city/1/lots/online`;
 
