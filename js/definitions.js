@@ -81,12 +81,13 @@ const BULLETIN_TYPE = [
 
 // Neighborhood names in order of neighborhood id
 const NEIGHBORHOOD = [
-    "Cub's Land", //1
-    "Grotesque Islands", //2
-    "Reagan's Sea", //3
-    "Spooky Island", //4
-    "Darkness Islands", //5
-    "Sunset Ocean" //6
+    "The Weirding Triangle", //1
+    "Nebula Heights", //2
+    "Solaris Slopes", //3
+    "Stardust Valley", //4
+    "Great Orion Wall", //5
+    "Stellar Springs", //6
+    "Apollo Acres" //7
 ];
 
 // Sim filter keys
