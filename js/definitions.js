@@ -5,7 +5,7 @@ const BASE_URL = "https://api.xenoso.space/";
 const SIM_ONLINE_URL = `${BASE_URL}/userapi/avatars/online`;
 const LOTS_ONLINE_URL = `${BASE_URL}/userapi/city/1/lots/online`;
 
-const STAFF_LIST_URL = "https://raw.githubusercontent.com/Sam-Chug/sim-finder-data/refs/heads/main/dramaso/dso-staff-names.txt";
+const STAFF_LIST_URL = "https://raw.githubusercontent.com/Tragic-Alec/XSO-Data/refs/heads/main/staffnames.txt";
 const RECENT_COMMIT_URL = "https://api.github.com/repos/sam-chug/dramaso-simfinder/branches/master";
 
 const NEWSPAPER_URL = "https://www.dramaso.org/newspaper.php?newspaper=1";
