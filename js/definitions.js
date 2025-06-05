@@ -274,7 +274,7 @@ const CONFETTI_DATA = {
     }
 }
 
-const CUSTOM_STYLE_REAGAN = "Reaganomics Lamborghini";
+const CUSTOM_STYLE_REAGAN = "Tragic";
 
 const CUSTOM_STYLE_SIMHEADS = {
     male: "./images/sim-faces/simface-m.png?v0.2.4h",
