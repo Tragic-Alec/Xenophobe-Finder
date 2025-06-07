@@ -396,16 +396,16 @@ domUtils = function() {
         let domRoot = document.querySelector(':root');
         if (state == "lightmode") {
 
-            domRoot.style.setProperty("--bg-fallback", "#7ca1bf");
+            domRoot.style.setProperty("--bg-fallback", "#211b3b");
 
-            domRoot.style.setProperty("--inset-bg", "#32455b");
-            domRoot.style.setProperty("--inset-bg-dark", "#220e68");
-            domRoot.style.setProperty("--block-gradient-light", "#3d21a0");
-            domRoot.style.setProperty("--block-gradient-dark", "#2e187d");
-            domRoot.style.setProperty("--outset-title-bg", "#32188e");
+            domRoot.style.setProperty("--inset-bg", "#2d2453");
+            domRoot.style.setProperty("--inset-bg-dark", "#2d2453");
+            domRoot.style.setProperty("--block-gradient-light", "#2e187d");
+            domRoot.style.setProperty("--block-gradient-dark", "#2e187dd");
+            domRoot.style.setProperty("--outset-title-bg", "#2e187d");
 
-            domRoot.style.setProperty("--bg-dark-gradient-light", "#5f88af");
-            domRoot.style.setProperty("--bg-dark-gradient-dark", "#476a8d");
+            domRoot.style.setProperty("--bg-dark-gradient-light", "#2e187d");
+            domRoot.style.setProperty("--bg-dark-gradient-dark", "#2e187dd");
         }
         else if (state == "darkmode") {
 
