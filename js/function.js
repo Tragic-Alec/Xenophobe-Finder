@@ -409,16 +409,16 @@ domUtils = function() {
         }
         else if (state == "darkmode") {
 
-            domRoot.style.setProperty("--bg-fallback", "#7c7c7c");
+            domRoot.style.setProperty("--bg-fallback", "#7ca1bf");
 
-            domRoot.style.setProperty("--inset-bg", "#222222");
-            domRoot.style.setProperty("--inset-bg-dark", "#111111");
-            domRoot.style.setProperty("--block-gradient-light", "#444444");
-            domRoot.style.setProperty("--block-gradient-dark", "#333333");
-            domRoot.style.setProperty("--outset-title-bg", "#555555");
+            domRoot.style.setProperty("--inset-bg", "#32455b");
+            domRoot.style.setProperty("--inset-bg-dark", "#2f4158");
+            domRoot.style.setProperty("--block-gradient-light", "#96bad0");
+            domRoot.style.setProperty("--block-gradient-dark", "#5f88af");
+            domRoot.style.setProperty("--outset-title-bg", "#5077a3");
 
-            domRoot.style.setProperty("--bg-dark-gradient-light", "#222222");
-            domRoot.style.setProperty("--bg-dark-gradient-dark", "#111111");
+            domRoot.style.setProperty("--bg-dark-gradient-light", "#5f88af");
+            domRoot.style.setProperty("--bg-dark-gradient-dark", "#476a8d");
         }
     }
 
