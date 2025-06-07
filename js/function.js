@@ -396,13 +396,13 @@ domUtils = function() {
         let domRoot = document.querySelector(':root');
         if (state == "lightmode") {
 
-            domRoot.style.setProperty("--bg-fallback", "#211b3b");
+            domRoot.style.setProperty("--bg-fallback", "#bf80ff");
 
             domRoot.style.setProperty("--inset-bg", "#2d2453");
             domRoot.style.setProperty("--inset-bg-dark", "#2d2453");
             domRoot.style.setProperty("--block-gradient-light", "#2e187d");
             domRoot.style.setProperty("--block-gradient-dark", "#2e187dd");
-            domRoot.style.setProperty("--outset-title-bg", "#2e187d");
+            domRoot.style.setProperty("--outset-title-bg", "#a64dff");
 
             domRoot.style.setProperty("--bg-dark-gradient-light", "#2e187d");
             domRoot.style.setProperty("--bg-dark-gradient-dark", "#2e187dd");
