@@ -84,7 +84,7 @@ simFinderMain = function() {
 
         // Populate modules
         // simModuleUtils.writeMarketWatch(simDataHolder.marketData); (disabled for now)
-        // simModuleUtils.writeSMOPercentages(simDataHolder.payoutData); (disabled for now)
+        // simModuleUtils.writeSMOPercentages(simDataHolder.payoutData);
 
         // Set list sizes
         domUtils.sizeLists();
