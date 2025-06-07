@@ -399,10 +399,10 @@ domUtils = function() {
             domRoot.style.setProperty("--bg-fallback", "#7ca1bf");
 
             domRoot.style.setProperty("--inset-bg", "#32455b");
-            domRoot.style.setProperty("--inset-bg-dark", "#2f4158");
-            domRoot.style.setProperty("--block-gradient-light", "#96bad0");
+            domRoot.style.setProperty("--inset-bg-dark", "#220e68");
+            domRoot.style.setProperty("--block-gradient-light", "#4227a6");
             domRoot.style.setProperty("--block-gradient-dark", "#5f88af");
-            domRoot.style.setProperty("--outset-title-bg", "#5077a3");
+            domRoot.style.setProperty("--outset-title-bg", "#32188e");
 
             domRoot.style.setProperty("--bg-dark-gradient-light", "#5f88af");
             domRoot.style.setProperty("--bg-dark-gradient-dark", "#476a8d");
