@@ -399,7 +399,7 @@ domUtils = function() {
             domRoot.style.setProperty("--bg-fallback", "#7257b2");
 
             domRoot.style.setProperty("--inset-bg", "#2d2453");
-            domRoot.style.setProperty("--inset-bg-dark", "#2d2453");
+            domRoot.style.setProperty("--inset-bg-dark", "#403068");
             domRoot.style.setProperty("--block-gradient-light", "#b2a4d4");
             domRoot.style.setProperty("--block-gradient-dark", "#7259b2");
             domRoot.style.setProperty("--outset-title-bg", "#5c469c");
