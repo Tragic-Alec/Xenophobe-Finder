@@ -404,8 +404,8 @@ domUtils = function() {
             domRoot.style.setProperty("--block-gradient-dark", "#7259b2");
             domRoot.style.setProperty("--outset-title-bg", "#5c469c");
 
-            domRoot.style.setProperty("--bg-dark-gradient-light", "#2e187d");
-            domRoot.style.setProperty("--bg-dark-gradient-dark", "#2e187dd");
+            domRoot.style.setProperty("--bg-dark-gradient-light", "#3c246c");
+            domRoot.style.setProperty("--bg-dark-gradient-dark", "#342c5e");
         }
         else if (state == "darkmode") {
 
