@@ -354,7 +354,7 @@
                     <div class="div-market-watch-title">
 
                         <img src="./images/buttons/market-watch-graphic.png?v0.2.4h" alt="">
-                        <p class="outset-title" style="min-width: fit-content">SMO% June 5th</p>
+                        <p id="smoDate" class="outset-title" style="min-width: fit-content"></p>
                         <img src="./images/buttons/market-watch-graphic.png?v0.2.4h" alt="">
 
                     </div>
@@ -375,5 +375,15 @@
                 <button id="colormode-button" class="light-button" onclick="domUtils.swapColorMode()"></button>
             </div>
         </div>
-    </body>
+    <script>
+    fetch("https://raw.githubusercontent.com/Tragic-Alec/XSO-Data/refs/heads/main/SMO%20Date")
+      .then(res => res.text())
+      .then(text => {
+        document.getElementById('smoDate').textContent = text;
+      })
+      .catch(err => {
+        console.log('error fetching the file')
+      });
+  </script> 
+</body>
 </html>
