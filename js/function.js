@@ -1978,8 +1978,6 @@ simModuleUtils = function() {
     // Construct %-bar element and style accordingly
     function buildSMOPEntry(objectName, objectPercentage) {
 
-        objectPercentage = Math.ceil(1 * objectPercentage);
-
         // SMO bar graphic
         let smoBar = document.createElement("div");
         smoBar.classList += "smo-bar";
@@ -1990,7 +1988,7 @@ simModuleUtils = function() {
 
         let smoBarGraphic = document.createElement("div");
         smoBarGraphic.classList += "smo-bar-graphic";
-        smoBarGraphic.style.height = `${((objectPercentage / 150) * 1) - 15}%`;
+        smoBarGraphic.style.height = `${((objectPercentage / 1.5) * 100) - 15}%`;
         let barColor = findPercentageColor(objectPercentage);
         smoBarGraphic.style.backgroundColor = `hsl(${barColor[0]}, ${barColor[1]}%, ${barColor[2]}%)`;
 
