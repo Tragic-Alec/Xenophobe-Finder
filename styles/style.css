@@ -2,7 +2,7 @@
 :root {
     --bg-fallback: #7ca1bf;
 
-    --sim-font: #f6f2ff;
+    --sim-font: #f8f5ff;
     --sim-offline-font: #969696;
     --list-index-selected-bg: #fac98c;
 
@@ -15,8 +15,8 @@
     --bg-dark-gradient-light: #5f88af;
     --bg-dark-gradient-dark: #476a8d;
 
-    --bg-thumbnail-light: #00bedc;
-    --bg-thumbnail-dark: #002594;
+    --bg-thumbnail-light: #9753da;
+    --bg-thumbnail-dark: #6500ca;
     --bg-thumbnail-border: #395273;
     --bg-thumbnail-fallback: #016abb;
 
