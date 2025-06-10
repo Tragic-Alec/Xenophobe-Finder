@@ -939,7 +939,7 @@ guiUtils = function() {
         GUI_LOT_THUMBNAIL.addEventListener("click", function() {
 
             let baseURL = window.location.origin;
-            let completeURL = `${baseURL}/dramaso-simfinder/lot-inspector.html?lot-id=${selectedLotLong.lot_id}`;
+            let completeURL = `${baseURL}/Xenophobes/lot-inspector.html?lot-id=${selectedLotLong.lot_id}`;
 
             console.log(completeURL);
             window.open(completeURL);
