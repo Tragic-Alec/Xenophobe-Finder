@@ -8,7 +8,7 @@ const LOTS_ONLINE_URL = `${BASE_URL}/userapi/city/1/lots/online`;
 const STAFF_LIST_URL = "https://raw.githubusercontent.com/Tragic-Alec/XSO-Data/refs/heads/main/staffnames.txt";
 const RECENT_COMMIT_URL = "https://api.github.com/repos/Tragic-Alec/test/branches/master";
 
-const NEWSPAPER_URL = "https://raw.githubusercontent.com/Tragic-Alec/XSO-SMO/refs/heads/main/SMO.txt";
+const NEWSPAPER_URL = "https://raw.githubusercontent.com/Tragic-Alec/XSO-SMO/refs/heads/main/SMO-DATA.txt";
 //#endregion
 
 

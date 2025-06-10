@@ -1963,6 +1963,11 @@ simModuleUtils = function() {
         GUI_MARKET_HOTSPOTS.textContent = hotspotText;
     }
 
+    //Write SMO date
+    function writeSMODate(dateString) {
+        document.getElementById('smoDate').textContent = dateString;
+    }
+
     // Write SMO percentages to module
     function writeSMOPercentages(percentageData) {
 
@@ -2023,7 +2028,8 @@ simModuleUtils = function() {
     return {
         returnMarketObject: returnMarketObject,
         writeMarketWatch: writeMarketWatch,
-        writeSMOPercentages: writeSMOPercentages
+        writeSMOPercentages: writeSMOPercentages,
+        writeSMODate: writeSMODate,
     }
 }();
 
